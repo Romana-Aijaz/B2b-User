@@ -1,0 +1,26 @@
+.slider-main-container {
+    margin-top: 60px;
+    border: solid red;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease;
+    border: solid black;
+  }
+  
+  .slider-box {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    margin: 0 10px;
+    border: solid blue;
+  }
+  
+  .slider-arrow {
+    cursor: pointer;
+  }
